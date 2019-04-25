@@ -1,0 +1,21 @@
+name: Pixel minimal theme
+type: theme
+description: Sub Theme of DX8 minimal theme. Used to allow greater extendibility without modifying the parent theme.
+core: 8.x
+
+# Defines the base theme.
+base theme: cohesion_theme
+
+libraries:
+  - cohesion_theme/global-styling
+
+
+# Defines theme regions available.
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer
+  dx8_hidden: DX8 hidden region
